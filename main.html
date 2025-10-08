@@ -7,72 +7,97 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <<body>
+<table border="1">
+  <tr>
+    <!-- Nested Table 1 -->
+    <td>
+      <table border="1">
+        <thead>
+          <tr>
+            <th>Nested Table 1</th>
+            <th>Column 1</th>
+            <th>Column 2</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Data 1</td>
+            <td>Data 2</td>
+            <td>Data 3</td>
+          </tr>
+        </tbody>
+      </table>
+    </td>
 
-      <table border="1" style="width:100%;">
-        
-        <tr>
-            <td style="width:50%; vertical-align:top;">
-                <table border="1" style="width:100%;">
-                    <tr>
-                        <th colspan="2">Nested Table 2</th>
-                    </tr>
-                    <tr>
-                        <th>Column 1</th>
-                        <th>Column 2</th>
-                    </tr>
-                    <tr>
-                        <td>abc</td>
-                        <td>def</td>
-                    </tr>
-                </table>
-            </td>
-            
-            <td style="width:50%; vertical-align:top;">
-                <table border="1" style="width:100%;">
-                    <caption>Nested Table 1</caption>
-                    <tr>
-                        <td>
-                            <ul>
-                                <li>List item</li>
-                                <li>List item</li>
-                                <li>List item</li>
-                            </ul>
-                        </td>
-                    </tr>
-                </table>
-            </td>
-        </tr>
+    <!-- Nested Table 2 -->
+    <td>
+      <table border="1">
+        <thead>
+          <tr>
+            <th>Nested Table 2</th>
+            <th>Column 1</th>
+            <th>Column 2</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Data 1</td>
+            <td>Data 2</td>
+            <td>Data 3</td>
+          </tr>
+        </tbody>
+      </table>
+    </td>
+  </tr>
 
-        <tr>
-            <td style="width:50%; vertical-align:top;">
-                <table border="1" style="width:100%;">
-                    <tr>
-                        <th colspan="2">Nested Table 3</th>
-                    </tr>
-                    <tr>
-                        <td>
-                            <table border="1" style="width:100%;">
-                                <tr>
-                                    <th><u>Nested Table</u></th>
-                                </tr>
-                            </table>
-                        </td>
-                        <td>Demo Continued</td>
-                    </tr>
-                </table>
+  <tr>
+    <!-- Nested Table 3 (list) -->
+    <td>
+      <table border="1">
+        <thead>
+          <tr>
+            <th>Nested Table 3</th>
+            <th>Column 1</th>
+            <th>Column 2</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <ul>
+                <li>List item 1</li>
+                <li>List item 2</li>
+                <li>List item 3</li>
+              </ul>
             </td>
-            
-            <td style="width:50%; vertical-align:top;">
-                <table border="1" style="width:100%;">
-                    <tr>
-                        <th>Nested Table 4</th>
-                    </tr>
-                    <tr>
-                        <td style="background-color:black; color:white; text-align:center;">HTML</td>
-                    </tr>
-                </table>
-            </td>
-        </tr>
-    </table>
+            <td>Data 2</td>
+            <td>Data 3</td>
+          </tr>
+        </tbody>
+      </table>
+    </td>
+
+    <!-- Nested Table 4 (HTML black cell) -->
+    <td>
+      <table border="1">
+        <thead>
+          <tr>
+            <th>Nested Table 4</th>
+            <th>Column 1</th>
+            <th>Column 2</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Data 1</td>
+            <td style="background-color: black; color: white;">HTML</td>
+            <td>Data 3</td>
+          </tr>
+        </tbody>
+      </table>
+    </td>
+  </tr>
+</table>
+
   </body>
 </html>
